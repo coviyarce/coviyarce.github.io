@@ -6,6 +6,8 @@
  * Made By MaterializeCSS.com
  */
 
+
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -13,6 +15,17 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+}
+
+.fullBackground {
+   background-position: center center;
+   background-attachment: fixed;
+   background-size: cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
 }
 
 .button-collapse {
